@@ -1,0 +1,42 @@
+{
+  "name": "overrides",
+  "version": "0.0.5",
+  "owner": {
+    "name": "bugroger"
+  },
+  "metadata": {
+    "description": "Custom skill overrides and development workflow plugins"
+  },
+  "plugins": [
+    {
+      "name": "dev-workflow",
+      "description": "Session retrospective for self-improvement - retro, wrap up, lessons learned, improve instructions",
+      "version": "0.0.1",
+      "source": "./plugins/dev-workflow"
+    },
+    {
+      "name": "dev-workflow-2bd",
+      "description": "Development workflow skills for 2bd",
+      "version": "0.0.2",
+      "source": "./plugins/dev-workflow-2bd"
+    },
+    {
+      "name": "dev-skills",
+      "description": "Development tools and utilities",
+      "version": "0.0.1",
+      "source": "./plugins/dev-skills"
+    },
+    {
+      "name": "dev-skills-superpowers",
+      "description": "Superpowers-based development skills",
+      "version": "0.0.1",
+      "source": "./plugins/dev-skills-superpowers"
+    },
+    {
+      "name": "commons",
+      "description": "Common skills for writing and communication",
+      "version": "0.0.1",
+      "source": "./plugins/commons"
+    }
+  ]
+}
