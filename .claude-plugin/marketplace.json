@@ -10,8 +10,8 @@
   "plugins": [
     {
       "name": "dev-workflow",
-      "description": "Session retrospective for self-improvement - retro, wrap up, lessons learned, improve instructions",
-      "version": "0.0.1",
+      "description": "Development workflow skills including session retrospective and project context loading",
+      "version": "0.0.2",
       "source": "./plugins/dev-workflow"
     },
     {

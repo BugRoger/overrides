@@ -1,7 +1,7 @@
 {
   "name": "dev-workflow",
-  "description": "Session retrospective for self-improvement of agent instructions",
-  "version": "0.0.1",
+  "description": "Development workflow skills including session retrospective and project context loading",
+  "version": "0.0.2",
   "author": {
     "name": "bugroger"
   }
