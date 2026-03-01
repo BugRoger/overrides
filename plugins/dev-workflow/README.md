@@ -2,6 +2,10 @@
 
 Michi's canonical workflow for Claude and agents.
 
+## Credits
+
+This plugin is adapted from [pcvelz/superpowers](https://github.com/pcvelz/superpowers), an excellent collection of Claude Code skills. We're evolving it into our own workflow while building on the solid foundation they established. Thank you to the superpowers team for their work.
+
 ## Installation
 
 ```bash
@@ -57,7 +61,7 @@ init → prime → research → design → plan → implement → status → ver
 | `/init` | ✅ | Initialize `.agent/` structure |
 | `/prime` | ✅ | Load project context |
 | `/research` | 🚧 | Discovery and exploration |
-| `/design` | 🚧 | Brainstorming and specs |
+| `/design` | ✅ | Brainstorming and specs |
 | `/plan` | 🚧 | Implementation plans |
 | `/status` | 🚧 | Project state tracking |
 | `/verify` | 🚧 | Verification reports |
