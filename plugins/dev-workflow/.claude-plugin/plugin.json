@@ -1,7 +1,7 @@
 {
   "name": "dev-workflow",
-  "description": "Development workflow skills including session retrospective and project context loading",
-  "version": "0.0.2",
+  "description": "Michi's canonical workflow for Claude and agents. Initialize projects with .agent/ structure and workflow skills.",
+  "version": "0.1.0",
   "author": {
     "name": "bugroger"
   }
