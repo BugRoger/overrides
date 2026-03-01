@@ -94,28 +94,20 @@ After saving the plan, ask two questions:
 
 **"Plan complete and saved to `.plans/<filename>.md`. Choose execution approach:**
 
-| | **executing-plans** | **subagent-driven-development** | **parallel-batch-execution** |
-|---|---|---|---|
-| **Execution** | Direct (main session) | Fresh subagent per task | Parallel subagents per batch |
-| **Context** | Accumulates across tasks | Fresh each task | Fresh each batch |
-| **Reviews** | None built-in | Two-stage: spec + quality | Two-stage within batches |
-| **Parallelism** | None | None (sequential) | Full (all batches at once) |
-| **Overhead** | Lower | Medium | Higher |
-| **Best for** | Straightforward tasks | Complex tasks needing review | Large plans with independent batches |
+1. **executing-plans** - Direct execution in main session, context accumulates, no reviews, lower overhead. Best for straightforward tasks.
+2. **subagent-driven-development** - Fresh subagent per task, two-stage reviews (spec + quality), sequential. Best for complex tasks needing review.
+3. **parallel-batch-execution** - Parallel subagents per batch, two-stage reviews within batches, higher overhead. Best for large plans with independent batches.
 
-**Which approach?"**
+**Which approach? (1/2/3)"**
 
 ### Question 2: Session
 
 **"Run in this session or launch separately?**
 
-| | **Same Session** | **Separate Session** |
-|---|---|---|
-| **When** | Stay engaged, answer questions | Free up this session |
-| **Visibility** | Watch progress live | Check in periodically |
-| **Best for** | Plans needing clarification | Well-specified plans |
+1. **Same Session** - Stay engaged, watch progress live, answer questions. Best for plans needing clarification.
+2. **Separate Session** - Free up this session, check in periodically. Best for well-specified plans.
 
-**Which session?"**
+**Which session? (1/2)"**
 
 ### Execute Based on Choices
 
