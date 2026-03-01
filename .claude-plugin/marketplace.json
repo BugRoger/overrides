@@ -9,10 +9,10 @@
   },
   "plugins": [
     {
-      "name": "dev-workflow",
-      "description": "Michi's canonical workflow for Claude and agents. Initialize projects with .agent/ structure and workflow skills.",
+      "name": "beastmode",
+      "description": "Agentic workflow skills for Claude Code. Activate beastmode.",
       "version": "0.1.0",
-      "source": "./plugins/dev-workflow"
+      "source": "https://github.com/BugRoger/beastmode"
     },
     {
       "name": "dev-workflow-2bd",
