@@ -1,6 +1,6 @@
 {
   "name": "overrides",
-  "version": "0.0.5",
+  "version": "0.0.8",
   "owner": {
     "name": "bugroger"
   },
@@ -9,22 +9,10 @@
   },
   "plugins": [
     {
-      "name": "beastmode",
-      "description": "Agentic workflow skills for Claude Code. Activate beastmode.",
-      "version": "0.1.0",
-      "source": "https://github.com/BugRoger/beastmode"
-    },
-    {
       "name": "dev-workflow-2bd",
       "description": "Development workflow skills for 2bd",
       "version": "0.0.2",
       "source": "./plugins/dev-workflow-2bd"
-    },
-    {
-      "name": "dev-skills",
-      "description": "Development tools and utilities",
-      "version": "0.0.1",
-      "source": "./plugins/dev-skills"
     },
     {
       "name": "dev-skills-superpowers",
@@ -35,7 +23,7 @@
     {
       "name": "commons",
       "description": "Common skills for writing and communication",
-      "version": "0.0.1",
+      "version": "0.0.8",
       "source": "./plugins/commons"
     }
   ]
